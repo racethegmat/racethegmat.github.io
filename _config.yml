@@ -1,0 +1,77 @@
+# SITE CONFIGURATION
+url: "https://racethegmat.github.io"
+baseurl: ""
+title: "racethegmat" # site's title
+description: "Your full stop to a Q51" # used by search engines
+author: "Siddhant Nagpal"
+logo: assets/img/profile.svg
+background-img: assets/img/wallpaper.jpg
+overlay-top: 0.2
+overlay-bottom: 0.8
+intro-width: 35em
+link-color: "#f47f00"
+dark: false
+math: true
+# theme: jekyll-theme-wallpaper-home
+
+# GOOGLE FONTS
+
+google-fonts:
+  main-font: "Open+Sans"
+  header-font: "Oswald:300"
+  code-font: "Source+Code+Pro"
+
+# FOOTER LINKS
+social:
+  mail: sid@racethegmat.com
+  twitter:
+  rss: false
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github:
+  instagram:
+  keybase:
+  linkedin: https://www.linkedin.com/in/siddhant-nagpal/
+  pinterest:
+  researchgate: # full url
+  reddit:
+  soundcloud:
+  stack_exchange: # full url
+  tumblr:
+  vimeo:
+  wordpress:
+  youtube:
+
+# FOOTER TEXT
+footer-text: >
+  <center/>We are under construction, see you soon!
+
+# BUILD SETTINGS
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      disable: false
+syntax-theme:
+
+# PAGINATION
+#
+#paginate: 5
+#paginate_path: "blog/page:num"
+
+# PORTFOLIO
+
+collections:
+  portfolio:
+    output: true
+
+plugins: [jekyll-seo-tag, jekyll-feed] #, jekyll-paginate]
+exclude: ["Gemfile", "Gemfile.lock", "jekyll-theme-wallpaper-home.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
